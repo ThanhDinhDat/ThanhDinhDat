@@ -5,9 +5,21 @@
 # Terminal alternatives
 + [Tabby](https://tabby.sh/) - A terminal for the modern age
 
+## Personal powershell_profile
+```
+oh-my-posh init pwsh --config ~/.thanhdinhdat.omp.json | Invoke-Expression
+Import-Module -Name Terminal-Icons
+Import-Module PSReadLine
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -EditMode Windows
+```
 # Open powershell
 ## ADD "OH MY POSH" TO YOUR SHELL
 They have an amazing docs [here](https://ohmyposh.dev/docs/installation/windows)
+
+### Personal oh-my-posh config
+- [JSON](./.thanhdinhdat.omp.json)
 
 ## Add colorful icons/color
 - Install the packages
