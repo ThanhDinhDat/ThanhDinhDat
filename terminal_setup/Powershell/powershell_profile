@@ -1,0 +1,13 @@
+oh-my-posh init pwsh --config ~/.thanhdinhdat.omp.json | Invoke-Expression
+Import-Module -Name Terminal-Icons
+
+# Autocomplete history commands
+Import-Module PSReadLine
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -EditMode Windows
+# Commands autocomplete
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+
+# Github autocomplete
+Import-Module posh-git
