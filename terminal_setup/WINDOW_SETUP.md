@@ -22,6 +22,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 Import-Module -Name Terminal-Icons
 ```
+Notes: In order to make the `Terminal-Icons` to show correctly in your window Terminal, you need at least on type installed from [Nerd fonts](https://github.com/ryanoasis/nerd-fonts)
 
 ## Show recent history commands when typing
 - Install the amazing [PSReadLine](https://github.com/PowerShell/PSReadLine?WT.mc_id=-blog-scottha)
